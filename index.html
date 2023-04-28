@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bulls and Cows Spiel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Bulls 🐂 and Cows  🐄 </h1>
+  </header>
+  <main>
+    <div class="game">
+      <div class="guess">
+        <input type="text" id="guessInput" placeholder="Zahl eingeben" maxlength="4" autocomplete="off">
+        <button id="guessButton" onclick="guess()">Raten</button>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Zahl</th>
+            <th>🐂<alt="Bulls"></th>
+            <th>🐄<alt="Cows"></th>
+          </tr>
+        </thead>
+        <tbody id="guessTableBody">
+        </tbody>
+      </table>
+      <button id="resetButton" onclick="resetGame()">Neues Spiel</button>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
